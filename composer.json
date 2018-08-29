@@ -1,5 +1,5 @@
 {
-  "name": "web-mi/braintree",
+  "name": "web-mi/braintree-bundle",
   "description": "Braintree Bundle for Symfony 4",
   "keywords": ["braintree","creditcard","paypal","payment"],
   "type": "library",

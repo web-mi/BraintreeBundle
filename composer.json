@@ -1,0 +1,27 @@
+{
+  "name": "web-mi/metadata",
+  "description": "Braintree Bundle for Symfony 4",
+  "keywords": ["braintree","creditcard","paypal","payment"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marc Itzenthaler",
+      "email": "info@web-mi.de"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "braintree/braintree_php": "^3.35"
+  },
+  "require-dev" : {
+  },
+  "autoload": {
+    "psr-4": { "WebMI\\BraintreeBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.x-dev"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 <?php
 namespace WebMI\BraintreeBundle\DependencyInjection;
 
-use App\WebMI\BraintreeBundle\Service\BraintreeGateway;
+use WebMI\BraintreeBundle\Service\BraintreeGateway;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
